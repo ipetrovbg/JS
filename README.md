@@ -13,6 +13,6 @@ JavaScript snippets
       var allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
       
       if(allowedTypes.contains(file.type)){
-          console.log(file.type);
+          console.log(file.type + ' is allowed format');
       }
   ```
