@@ -1,18 +1,5 @@
 	var $helper = (function (){
 
-		var _name;
-		var getName = function(){
-			if(typeof(_name) !== 'undefined'){
-				return _name;
-			} else {
-				return "name was not set";
-			}
-		}
-
-		var setName = function( name ){
-			_name = name;
-		}
-
 		var booblesort = function( arr, operator ){
 			if( arr ){
 				if( arr.length === 0 ){
@@ -66,8 +53,6 @@
 
 
 		var publicFunctions = {
-			getName: getName,
-			setName: setName,
 			booblesort: booblesort,
 		}
 
