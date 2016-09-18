@@ -6,7 +6,7 @@ JavaScript snippets
     var myArray = [5, 2, 7, 10, 4];
     myArray.booblesort();
   ```
-  ### contains
+### contains
   ```javascript
   //include contains.array.prototype.js 
       var file = {
