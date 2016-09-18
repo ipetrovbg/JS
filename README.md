@@ -2,13 +2,13 @@
 JavaScript snippets
 ### booblesort
 ```javascript
-//include booblesort.array.prototype.js
+//first load 'booblesort.array.prototype.js'
     var myArray = [5, 2, 7, 10, 4];
     myArray.booblesort();
   ```
 ### contains
   ```javascript
-  //include contains.array.prototype.js 
+  //first load 'contains.array.prototype.js'
       var file = {
         type: 'image/jpeg'
       };
