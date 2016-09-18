@@ -9,9 +9,7 @@ JavaScript snippets
 ### contains
   ```javascript
   //first load 'contains.array.prototype.js'
-      var file = {
-        type: 'image/jpeg'
-      };
+      var file = {type: 'image/jpeg'};
       var allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
       
       if(allowedTypes.contains(file.type)){
