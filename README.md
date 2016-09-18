@@ -2,6 +2,7 @@
 JavaScript snippets
 ###booblesort
 ```html
+<!DOCTYPE html>
   <html>
     <head>
       <script type="text/javascript" src="booblesort.array.prototype.js">
