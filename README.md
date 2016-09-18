@@ -8,7 +8,7 @@ JavaScript snippets
     </head>
     <body>
     </body>
-  </html
+  </html>
 ```
 ```javascript
 var myArray = [5, 2, 7, 10, 4];
