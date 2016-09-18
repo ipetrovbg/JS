@@ -48,12 +48,28 @@
 			      }
 			      return arr;
 			}
+
+			var contains = function ( data, search ) {
+
+				if( data.constructor === Array ){
+					var i = data.length;
+				    while (i--) {
+				        if (data[i] === search) {
+				            return true;
+				        }
+				    }
+				    return false;
+				}else{
+					return data;
+				}			    
+			}
 		
 
 
 
 		var publicFunctions = {
 			booblesort: booblesort,
+			contains: contains
 		}
 
 		return publicFunctions;
